@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+#main-container-img{
+    background-image: url('../img/desktopImg.jpg');
+    width: 100%;
+    height: 409px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
