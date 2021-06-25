@@ -53,12 +53,12 @@
         </section>
 
         <!-- Carts Container -->
-        <section>
+        <section id="cartsContainer">
             <!--  represnetative logo -->
             <img src="img/pawprint 1.png" alt="pawPrint">
             <!-- info products -->
             <h1>Productos Destacados</h1>
-            <ul>
+            <ul id="options-header">
                 <li><a href="#">Comederos -</a></li>
                 <li><a href="#">Accesorios -</a></li>
                 <li><a href="#">Comida</a></li>
@@ -72,24 +72,24 @@
                     <img src="img/churrasquito.jpg" alt="churrasquito">
                     <!-- footer card -->
                     <div>
-                        <span>Juguete Churrasquito</span>
-                        <span>$150</span>
+                        <span class="nameProduct">Juguete Churrasquito</span>
+                        <span class="priceProduct">$150</span>
                     </div>
                 </article>
 
                 <article>
                     <img src="img/comedero.jpg" alt="comedero">
                     <div>
-                        <span>Comedero para perro</span>
-                        <span>$250</span>
+                        <span class="nameProduct">Comedero para perro</span>
+                        <span  class="priceProduct">$250</span>
                     </div>
                 </article>
 
                 <article>
                     <img src="img/Huesito.jpg" alt="huesito">
                     <div>
-                        <span>Juguete Churrasquito</span>
-                        <span>$150</span>
+                        <span class="nameProduct">Juguete Churrasquito</span>
+                        <span  class="priceProduct">$150</span>
                     </div>
                 </article>
 
@@ -134,18 +134,19 @@
             <!-- for info -->
             <section id="footer-info">
                 <ul>
-                    <li><span><img class="iconsFooters" src="img/location.png" alt="location"></span> Localidad
-                        <ul>
+                    <li class="principalItem"><div><img class="iconsFooters" src="img/location.png" alt="location"></div> Localidad
+                        <ul class="subItem">
                             <li><a href="#">Calle-provincia</a></li>
                         </ul>
                     </li>
-                    <li><span><img class="iconsFooters" src="img/phone.png" alt="location"></span> Telefono
-                        <ul>
+                    <li class="principalItem"><div><img class="iconsFooters" src="img/phone.png" alt="location"></div> Telefono
+                        <ul class="subItem">
                             <li><a href="#">Numero de telefono</a></li>
                         </ul>
                     </li>
-                    <li><span><img  src="img/email.png" alt="location"></span> Correo Electronico
-                        <ul>
+
+                    <li class="principalItem"><div class="test2"><img   src="img/email.png" alt="location"></div Correo Electronico
+                        <ul class="subItem">
                             <li><a href="#">Direccion de correo</a></li>
                         </ul>
                     </li>
@@ -160,8 +161,7 @@
 
     </footer>
 
-     <br>
-    <aside>  <p>Todos los derechos reservados Front End</p>   </aside>
+    <aside><p>Todos los derechos reservados Front End</p> </aside>   
      
 
 </body>
