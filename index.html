@@ -17,8 +17,8 @@
         <nav id="header__languaje-price">
             <p>Grandes ofertas en comederos</p>
             <ul>
-                <li>espanol</li>
-                <li>ARG$</li>
+                <li>español <i class="fas fa-angle-down"></i></li>
+                <li>ARG$ <i class="fas fa-angle-down"></i></li>
             </ul>
         </nav>
         <nav id="header__option-menu">
@@ -52,15 +52,15 @@
 
             <i class="fas fa-paw"></i>
             <h1>Productos Destacados</h1>
+
             <ul>
-                <ul>
-                    <li> <a href="#">Comederos</a> </li>
-                    <li>-</li>
-                    <li><a href="#">Accesorios</a></li>
-                    <li>-</li>
-                    <li><a href="#">Comida</a></li>
-                </ul>
+                <li> <a href="#">Comederos</a> </li>
+                <li>-</li>
+                <li><a href="#">Accesorios</a></li>
+                <li>-</li>
+                <li><a href="#">Comida</a></li>
             </ul>
+
 
         </header>
 
@@ -109,7 +109,7 @@
         <h2>Contáctanos</h2>
 
         <form>
-            <section class="from__control"> 
+            <section class="from__control">
                 <input type="text" required placeholder="Nombre y Apellido">
                 <input type="email" required placeholder="Ingresá tu correo electrónico">
                 <input type="number" required placeholder="Teléfono">
@@ -124,7 +124,7 @@
     <!-- Section 3 -->
     <aside id="banner__form">
         <div>
-            <i class="far fa-envelope"></i> 
+            <i class="far fa-envelope"></i>
             <span>Suscríbete para más novedades </span>
         </div>
 
@@ -137,21 +137,34 @@
 
     <!-- footer -->
     <footer>
-        <ul>
-            <li> <i class="fas fa-map-marked-alt"></i> <a href="#">Localidad</a>
-                <ul>
+        <ul id="footer__info">
+            <li class="info__subItem">
+                <span> <i class="fas fa-map-marked-alt"></i> </span>
+
+
+                <a href="#">Localidad</a>
+                <ul class="subItem__child">
                     <li>Calle - provincia</li>
                 </ul>
 
             </li>
-            <li> <i class="fas fa-phone-alt"></i> <a href="#">Teléfono</a>
-                <ul>
+            <li class="info__subItem">
+                <span> <i class="fas fa-phone-alt"></i> </span>
+
+
+
+                <a href="#">Teléfono</a>
+                <ul class="subItem__child">
                     <li>Número de teléfono</li>
                 </ul>
 
             </li>
-            <li><i class="far fa-envelope"></i> <a href="#">Correo Electrónico</a>
-                <ul>
+            <li class="info__subItem">
+                <span> <i class="far fa-envelope"></i> </span>
+
+
+                <a href="#">Correo Electrónico</a>
+                <ul class="subItem__child">
                     <li>Dirección de correo</li>
                 </ul>
 
@@ -160,11 +173,11 @@
 
         <img src="img/logo-footer.png" alt="FrontCat&Dog">
 
-        <aside>
-            <p>Todos los derechos reservados Front End</p>
-        </aside>
-    </footer>
 
+    </footer>
+    <aside id="sub_footer-author">
+        <p>Todos los derechos reservados Front End</p>
+    </aside>
 
 
 </body>
