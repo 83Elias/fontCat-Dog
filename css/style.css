@@ -491,6 +491,9 @@ footer img {
         margin: auto 0.5rem;
 
     }
+    #header__option-menu i{
+        display: none;
+    }
 
     .head__container {
 
@@ -498,9 +501,7 @@ footer img {
 
     }
 
-    .fa-bars {
-        display: none;
-    }
+
 
     main h2 {
         width: 40%;
@@ -648,10 +649,7 @@ footer img {
     .info__subItem a{
         font-size: 1.3rem;
     }
-    .fa-bars{
-        display: none;
-    }
-
+  
 }
 
 
@@ -662,15 +660,5 @@ footer img {
         width: 20rem;
        
     }
-    .fa-bars{
-        display: none;
-    }
-} 
-
- @media (min-width:1280px) {
- 
-    .fa-bars{
-        display: none;
- 
-    }
+  
 } 
