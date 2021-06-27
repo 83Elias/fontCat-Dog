@@ -70,7 +70,7 @@ main {
     align-items: center;
     justify-content: center;
     background: url('../img/desktopImg.jpg') no-repeat left;
-    background-size:cover 100%;
+    background-size:cover;
     height: 700px;
     width: 100%;
 }
@@ -651,8 +651,12 @@ footer img {
 
 }
 
-/* @media (min-width:1279px) {
-    body {
-        background: chartreuse;
+
+
+ @media (min-width:1279px) {
+    main h2 {
+        
+        width: 20rem;
+       
     }
-} */
+} 
