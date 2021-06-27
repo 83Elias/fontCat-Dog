@@ -663,13 +663,14 @@ footer img {
        
     }
     .fa-bars{
-        display: none;;
+        display: none;
     }
 } 
 
  @media (min-width:1280px) {
  
     .fa-bars{
-        display: none;;
+        display: none;
+ 
     }
 } 
