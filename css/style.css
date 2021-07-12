@@ -4,6 +4,7 @@
 
 /*  vars */
 :root {
+
     --FamilyStyle: 'Roboto', sans-serif;
     --Color_white: #ffffff;
     --Color_orange: #f0a83e;
@@ -13,6 +14,7 @@
     --Color_ligthGray: #666666;
     --Color_Special: rgba(251, 250, 246, 255);
     --Color_ligthCoffe: #786960;
+    
 
 }
 
@@ -34,6 +36,7 @@
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.25);
     z-index: 1;
     top: 0;
+   
 }
 
 .head__container #header__languaje-price {
@@ -57,8 +60,23 @@
     color: var(--Color_white);
 }
 
+
+
 #option__menu-items{
     display: none;
+}
+
+.icon::before {
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+  }
+#option__menu-items>li>a::before{
+    font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f1b0";
+    padding: 0.4rem;
+    font-size: 1rem;
 }
 
 /*  end code */
@@ -69,8 +87,8 @@ main {
     flex-flow: column nowrap;
     align-items: center;
     justify-content: center;
-    background: url('../img/desktopImg.jpg') no-repeat left;
-    background-size:cover;
+   background: url('../img/desktopImg.jpg') no-repeat left;
+    background-size:cover; 
     height: 700px;
     width: 100%;
 }
@@ -235,7 +253,7 @@ span {
 /* contact */
 
 #form__contact {
-    padding: 15px;
+    padding: 1rem;
     margin: auto;
     display: flex;
     flex-flow: column wrap;
@@ -271,8 +289,17 @@ span {
     border: none;
     width: 100%;
     height: 45px;
+    outline: none;
+   padding-left: 1rem;
 
 }
+.from__control input:focus {
+    color: var(--Color_white); 
+         font-size: 1rem;
+         font-family: var(--FamilyStyle);
+}
+
+
 
 .form__control-buttons {
     display: flex;
@@ -296,10 +323,13 @@ span {
 
 #btn-reset {
     background: var(--Color_ligthGray);
+    transition: 0.3s ease-out all;
 }
+
 
 #btn-send {
     background: var(--Color_orange);
+    transition: 0.3s ease-out all;
 }
 
 
@@ -368,6 +398,7 @@ span {
     margin: 0.5rem;
     text-align: center;
     line-height: 35px;
+    transition: 0.3s ease-out all;
 }
 
 /* end banner code */
@@ -491,6 +522,7 @@ footer img {
         margin: auto 0.5rem;
 
     }
+   
  
     /* #header__option-menu i{
         display: none;
@@ -593,18 +625,18 @@ footer img {
     }
 
     .from__control input {
-        width: 40%;
+        width: 25rem;
         align-self: center;
     }
 
     .form__control-buttons {
        justify-content: flex-start;
        justify-content: center;
-    
+      
     }
     .form__control-buttons a {
        
-        width: 15%;
+        width: 15rem;
         margin: 0.3rem;
 
     }
@@ -638,6 +670,19 @@ footer img {
          width: 40%;
     
     }
+    #btn-reset:hover{
+        background: rgb(87, 86, 86);
+    }
+    #btn-send:hover {
+        background:rgb(255, 167, 2);
+    }
+
+    #banner__form form a:hover {
+  
+        background: rgb(131, 86, 49);
+       
+    }
+    
 
     footer{
         flex-direction: row;
